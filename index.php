@@ -7,9 +7,6 @@
   <meta name="authors" content="Blor XYZ,Kickball,Selfhosted">
   <meta name="keywords" content="sheldon,rupp,sheldonrupp,ruppsheldon,sheldon rupp,rupp sheldon,kickball,kickball/awesome-selfhosted,awesome-selfhosted,awesome,awesome selfhosted,selfhosted,selfhost,self host,awesome selfhost,hosted,host">
   <meta name="description" content="This website is a mirror of GitHub repository for Awesome-Selfhosted maintained by Kickball on. I take no credit.">
-  <!--[if lt IE 9 ]>
-    <script src="js/ie.min.js"></script>
-  <![endif]-->
 </head>
 <?php 
 ini_set('display_errors',1);
