@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Awesome-Selfhosted</title>
+  <title>Kickball/Awesome-Selfhosted</title>
   <meta name="authors" content="Sheldon Rupp,Blor XYZ,Kickball,Selfhosted">
   <meta name="keywords" content="sheldon,rupp,sheldonrupp,ruppsheldon,sheldon rupp,rupp sheldon,kickball,kickball/awesome-selfhosted,awesome-selfhosted,awesome,awesome selfhosted,selfhosted,selfhost,self host,awesome selfhost,hosted,host">
   <meta name="description" content="This website is a mirror of GitHub repository for Awesome-Selfhosted maintained by Kickball on. I take no credit.">
