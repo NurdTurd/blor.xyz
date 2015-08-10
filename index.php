@@ -731,6 +731,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 <?php require 'vendor/autoload.php'; ?>
 
 <p><strong>NOTE:</strong> I do not take any credit. This is a mirror of <a href="https://github.com/Kickball/Awesome-Selfhosted">Kickball/Awesome-Selfhosted</a>.</p>
+<p><strong>BUG:</strong> Table of Contents not working at the moment.</p>
 
 <?php 
 	$mirror_link = file_get_contents("https://raw.githubusercontent.com/Kickball/awesome-selfhosted/master/README.md");
