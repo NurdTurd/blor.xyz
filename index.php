@@ -735,7 +735,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 <?php 
 	$mirror_link = file_get_contents("https://raw.githubusercontent.com/Kickball/awesome-selfhosted/master/README.md");
-	use \Michelf\Markdown;
+	use \Michelf\MarkdownExtra;
 	$html = Markdown::defaultTransform($mirror_link);
 	echo $html;
 ?>
