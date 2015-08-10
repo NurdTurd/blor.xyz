@@ -736,7 +736,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 <?php 
 	$mirror_link = file_get_contents("https://raw.githubusercontent.com/Kickball/awesome-selfhosted/master/README.md");
 	use \Michelf\MarkdownExtra;
-	$parser = new MarkdownExtra;
+	$parser = new Markdown;
 	$parser->header_id_func = function ($header) {
     return preg_replace('/[^a-z0-9]/', '-', strtolower($mirror_link));
 	};
