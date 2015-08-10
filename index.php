@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Awesome-Selfhosted</title>
+  <meta name="authors" content="Blor XYZ,Kickball,Selfhosted">
+  <meta name="keywords" content="sheldon,rupp,sheldonrupp,ruppsheldon,sheldon rupp,rupp sheldon,kickball,kickball/awesome-selfhosted,awesome-selfhosted,awesome,awesome selfhosted,selfhosted,selfhost,self host,awesome selfhost,hosted,host">
+  <meta name="description" content="This website is a mirror of GitHub repository for Awesome-Selfhosted maintained by Kickball on. I take no credit.">
+  <!--[if lt IE 9 ]>
+    <script src="js/ie.min.js"></script>
+  <![endif]-->
+</head>
 <?php 
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
@@ -717,14 +730,15 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 }
 #wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{list-style-position:outside!important;margin-left:3rem;}
 </style>
+<body>
 <?php require 'vendor/autoload.php'; ?>
 
 <p><strong>NOTE:</strong> I do not take any credit. This is a mirror of <a href="https://github.com/Kickball/Awesome-Selfhosted">Kickball/Awesome-Selfhosted</a>.</p>
 
 <?php 
-$mirror_link = file_get_contents("https://raw.githubusercontent.com/Kickball/awesome-selfhosted/master/README.md");
-
-use \Michelf\Markdown;
-$html = Markdown::defaultTransform($mirror_link);
-echo $html;
- ?>
+	$mirror_link = file_get_contents("https://raw.githubusercontent.com/Kickball/awesome-selfhosted/master/README.md");
+	use \Michelf\Markdown;
+	$html = Markdown::defaultTransform($mirror_link);
+	echo $html;
+?>
+</body>
