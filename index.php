@@ -726,4 +726,5 @@ $mirror_link = file_get_contents("https://raw.githubusercontent.com/Kickball/awe
 
 use \Michelf\Markdown;
 $html = Markdown::defaultTransform($mirror_link);
+echo $html;
  ?>
