@@ -738,6 +738,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 	use \Michelf\Markdown;
 	$parser = new Markdown;
 	$parser->header_id_func = function ($header) {
+		$mirror_link = file_get_contents("https://raw.githubusercontent.com/Kickball/awesome-selfhosted/master/README.md");
     return preg_replace('/[^a-z0-9]/', '-', strtolower($mirror_link));
 	};
 	$html = $parser->transform($mirror_link);
