@@ -740,7 +740,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 	$parser->header_id_func = function ($header) {
     return preg_replace('/[^a-zA-Z0-9]/', '-', strtolower($text));
 	};
-	$html = MarkdownExtra::defaultTransform($mirror_link);
+	$html = MarkdownExtra::transform($mirror_link);
 	echo $html;
 ?>
 </body>
