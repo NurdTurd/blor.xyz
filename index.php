@@ -738,7 +738,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 	use \Michelf\MarkdownExtra;
 	$parser = new MarkdownExtra;
 	$parser->header_id_func = function ($header) {
-    return preg_replace('/[^a-z0-9]/', '-', strtolower($text));
+    return preg_replace('/[^a-z0-9]/', '-', strtolower($mirror_link));
 	};
 	$html = $parser->transform($mirror_link);
 	echo $html;
