@@ -1,0 +1,9 @@
+host='root@46.101.210.83'
+path='/usr/share/nginx/blor.xyz'
+
+[deploy]
+git checkout master
+git pull
+
+[status]
+uptime
