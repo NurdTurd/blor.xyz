@@ -1,4 +1,4 @@
-host='root@46.101.210.83'
+host='root@46.101.136.184'
 path='/usr/share/nginx/blor.xyz'
 
 [deploy]
